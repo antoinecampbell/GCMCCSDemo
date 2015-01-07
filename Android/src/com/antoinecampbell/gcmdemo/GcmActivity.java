@@ -212,7 +212,7 @@ public class GcmActivity extends FragmentActivity implements OnClickListener
 		    {
 			data.putString("action", "com.antoinecampbell.gcmdemo.BROADCAST");
 		    }
-		    else if(params[1].equals("Notification"))
+		    else if(params[1].equals("User Notification"))
 		    {
 			data.putString("action", "com.antoinecampbell.gcmdemo.NOTIFICATION");
 		    }
